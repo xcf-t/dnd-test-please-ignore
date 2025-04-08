@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://kosak.dev">Pascal Kosak</author>
         <update version="0.0.7">
-			<file name="pero-custom.xml" url="https://raw.githubusercontent.com/xcf.t/dnd-test-please-ignore/master/pero-custom.xml" />
+			<file name="pero-custom.xml" url="https://raw.githubusercontent.com/xcf-t/dnd-test-please-ignore/master/pero-custom.xml" />
 		</update>
 	</info>
 	<element name="Fledermausschnitter" type="Magic Item" source="Pero's Custom Items" id="ID_PERO_DMG_MAGIC_ITEM_DAGGER_OF_BATS">
