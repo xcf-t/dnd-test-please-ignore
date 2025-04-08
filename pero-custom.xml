@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Pero's Custom Items</name>
+		<description></description>
+		<author url="https://kosak.dev">Pascal Kosak</author>
+        <update version="0.0.7">
+			<file name="pero-custom.xml" url="https://raw.githubusercontent.com/xcf.t/dnd-test-please-ignore/master/pero-custom.xml" />
+		</update>
+	</info>
+	<element name="Fledermausschnitter" type="Magic Item" source="Pero's Custom Items" id="ID_PERO_DMG_MAGIC_ITEM_DAGGER_OF_BATS">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent"><strong><em>Fire.</em></strong> TODO TODO TODO</p>
+			<p class="indent"><strong><em>Air.</em></strong> TODO TODO TODO</p>
+		</description>
+		<setters>
+			<set name="keywords">dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+	</element>
+</elements>
