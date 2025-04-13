@@ -33,4 +33,28 @@
 		</description>
 		</sheet>
 	</element>
+	<element name="Fledermausschnitter v2" type="Magic Item" source="Pero's Custom Items" id="ID_PERO_DMG_MAGIC_ITEM_DAGGER_OF_BATS_V2">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent"><strong><em>Fire.</em></strong> +2d4 Fire + 1d8 Fire (DC16 Dex save)</p>
+			<p class="indent"><strong><em>Poison.</em></strong> Enemy is paralyzed (DC16 Con save)</p>
+			<p class="indent"><strong><em>Smoke.</em></strong> Enemy is blinded (DC16 Con save)</p>
+		</description>
+		<setters>
+			<set name="keywords">dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+		<sheet>
+		<description>
+			Fire. +2d4 Fire + 1d8 Fire (DC13 Dex save)
+			Poison. Enemy is paralyzed (DC13 Con save)
+			Smoke. Enemy is blinded (DC13 Con save)
+		</description>
+		</sheet>
+	</element>
 </elements>
