@@ -24,5 +24,13 @@
 			<set name="enhancement">1</set>
 			<set name="weapon">Dagger</set>
 		</setters>
+		<sheet>
+		<description>
+			<br/>
+			<p class="indent"><strong><em>Fire.</em></strong> +1d4 Fire + 1d6 Fire (DC13 Dex save)</p>
+			<p class="indent"><strong><em>Poison.</em></strong> Enemy is paralyzed (DC13 Con save)</p>
+			<p class="indent"><strong><em>Smoke.</em></strong> Enemy is blinded (DC13 Con save)</p>
+		</description>
+		</sheet>
 	</element>
 </elements>
