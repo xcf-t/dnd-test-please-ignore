@@ -11,8 +11,9 @@
 	<element name="Fledermausschnitter" type="Magic Item" source="Pero's Custom Items" id="ID_PERO_DMG_MAGIC_ITEM_DAGGER_OF_BATS">
 		<description>
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-			<p class="indent"><strong><em>Fire.</em></strong> TODO TODO TODO</p>
-			<p class="indent"><strong><em>Air.</em></strong> TODO TODO TODO</p>
+			<p class="indent"><strong><em>Fire.</em></strong> +1d4 Fire + 1d6 Fire (DC13 Dex save)</p>
+			<p class="indent"><strong><em>Poison.</em></strong> Enemy is paralyzed (DC13 Con save)</p>
+			<p class="indent"><strong><em>Smoke.</em></strong> Enemy is blinded (DC13 Con save)</p>
 		</description>
 		<setters>
 			<set name="keywords">dagger</set>
