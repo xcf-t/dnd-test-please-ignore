@@ -57,12 +57,18 @@
 		</description>
 		</sheet>
 	</element>
-	<element name="Expertise" type="Class Feature" source="Pero's Custom Rulebook" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE">
+	<element name="Expertise" type="Class Feature" source="Pero’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE">
 		<description>
-			<p> At 3rd level, you can choose to gain an expertise in stealth. </p>
+			<p> At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves’ tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>
+			<p> At 6th level, you can choose two more of your proficiencies (in skills or with thieves’ tools) to gain this benefit. </p>
 		</description>
+		<sheet display="false">
+			<description>Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</description>
+		</sheet>
 		<rules>
-			<select type="Class Feature" name="Expertise (Rogue)" level="3" number="1" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+			<select type="Class Feature" name="Expertise (Rogue)" level="1" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+			<select type="Class Feature" name="Expertise (Pero's Rogue)" level="4" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+			<select type="Class Feature" name="Expertise (Rogue)" level="6" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
 		</rules>
 	</element>
 </elements>
